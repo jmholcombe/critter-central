@@ -34,3 +34,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# virtual environment
+.venv/
+
+# python cache
+__pycache__/
