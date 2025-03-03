@@ -37,3 +37,6 @@ yarn-error.*
 
 # virtual environment
 .venv/
+
+# python cache
+__pycache__/
