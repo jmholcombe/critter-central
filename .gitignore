@@ -35,8 +35,23 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# virtual environment
+# Ignore virtual environment
 .venv/
 
-# python cache
+# Ignore environment variables
+.env
+.envrc
+
+# Ignore uploaded files
+uploads/
+
+# Ignore IDE & editor settings (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignore Python cache and compiled files
+
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
